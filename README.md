@@ -6,8 +6,8 @@ cd ChatServer
 cmake ..
 make
 
-如何使用：
-  编译后在src/server中生成服务器文件，在src/client中生成客户端文件。
-  执行示例：./ChatServer ip 端口
-            ./ChatClient ip 端口
+如何使用：  
+  编译后在src/server中生成服务器文件，在src/client中生成客户端文件。  
+  执行示例：./ChatServer ip 端口  
+            ./ChatClient ip 端口  
   在nginx配置文件中添加服务器的ip和端口，即可实现多服务器负载均衡。项目已使用基于订阅发布的redis实现客户端之间跨服务器通信。
